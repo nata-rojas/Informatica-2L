@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hábitat</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        body{
+            width: 70%;
+            min-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            gap: 10px;
+            grid-template-columns: 33% 67%;
+            grid-template-rows: auto;
+            grid-template-areas: 
+            "nav nav"
+            "imagen1 imagen1"            
+            "texto1 texto1"
+            "imagen2 imagen2"
+            "tabla1 tabla1" 
+            "texto2 texto2";
+        }
+        h2{
+            border-top: black solid 3px;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: cadetblue;
+        }
+        #imagen1{
+            grid-area: imagen1;
+            display: block;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 20px;
+            padding: 10px;
+            border: solid 5px lightblue;
+        }
+        #texto1{
+            grid-area: texto1;
+        }
+        #imagen2{
+            grid-area: imagen2;
+            display: block;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 20px;
+            padding: 10px;
+            border: solid 5px lightblue;
+        }
+        #tabla{
+            grid-area: tabla;
+        }
+        #texto2{
+            grid-area: texto2;
+        }
+        #imagen3{
+          grid-area: imagen2;
+            display: block;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 20px;
+            padding: 10px;
+            border: solid 5px lightblue; 
+        }
+        #texto3{
+          grid-area: texto3;
+        }
+        nav{
+            grid-area: nav;
+        }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    <h1>Hábitat</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/African_Elephant_%28Loxodonta_africana%29_male_%2817289351322%29.jpg/1200px-African_Elephant_%28Loxodonta_africana%29_male_%2817289351322%29.jpg" alt="Elefante africano" id="imagen1">
+    
+    <h2>¿Dónde viven los elefantes africanos?</h2>
+    <div id="texto1">
+      <p>Existen dos especies de elefantes africanos: el elefante africano de sabana (Loxodonta africana) y el elefante africano de la selva (Loxodonta cyclotis). Aunque ambos viven en África, se distribuyen en zonas diferentes:</p>
+      <ul>
+        <li>Elefante africano de la sabana: habita zonas desérticas del continente africano, como la región subsahariana, donde prefiere mantenerse en áreas donde pueda encontrar agua y alimento de forma sencilla.</li>
+        <li>Elefante africano de la selva: habita en regiones húmedas de bosque o selva, en Camerún, Gabón, Congo, Guinea y países de la zona central de África.</li>
+      </ul>
+    </div>
+    <img src="https://www.geoenciclopedia.com/wp-content/uploads/2015/09/Africa.jpg" alt="Hábitat elefantes africanos" id="imagen2">
+    <h2>¿Dónde viven los elefantes asiáticos?</h2>
+    <div id="texto2">
+      <p>Existe una sola especie de elefante asiático (Elephas maximus) que a su vez tiene tres subespecies: el elefante de Sri Lanka (Elephas maximus maximus), el elefante de Sumatra (Elephas maximus sumatranus) y el elefante Indio (Elephas maximus indicus).</p>
+      <p>El elefante asiático se distribuye en varios países del continente, como Sri Lanka y Sumatra, que le dan nombre a dos de ellos, pero también Nepal, India, Indochina, Borneo y Tailandia. Prefiere vivir en zonas de bosque tropical húmedo, donde le resulta sencillo camuflarse con la vegetación.</p>
+    </div>
+    <img src="https://www.bioenciclopedia.com/wp-content/uploads/2012/04/elefante-asiatico-800.jpg" alt="Hábitat elefante asiático" id="imagen3">
+    <div id="texto3">
+      <ul>
+        <li>Para conocer más sobre las distintas especies que abarca este género del Elephantidae, visite <a href="index.html">este</a> link para volver a la página principal y leer información detallada sobre esta especie. Por otro lado, visite <a href="Loxodonta.html">este</a> o <a href="Elephas.html">este</a> link si desea conocer los distintos géneros pertenecientes a la familia de los Elephantidae: los Elephas y las Loxodonta.</li>
+    </ul>
+    </div>
+</body>
+</html>

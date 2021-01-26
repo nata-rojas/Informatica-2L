@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loxodonta</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        body{
+            width: 70%;
+            min-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            gap: 10px;
+            grid-template-columns: 33% 67%;
+            grid-template-rows: auto;
+            grid-template-areas: 
+            "nav nav"
+            "imagen1 imagen1"            
+            "texto1 texto1"
+            "imagen2 imagen2"
+            "tabla1 tabla1" 
+            "texto2 texto2";
+        }
+        h2{
+            border-top: black solid 3px;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: cadetblue;
+        }
+        #imagen1{
+            grid-area: imagen1;
+            display: block;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 20px;
+            padding: 10px;
+            border: solid 5px lightblue;
+        }
+        #texto1{
+            grid-area: texto1;
+        }
+        #imagen2{
+            grid-area: imagen2;
+            display: block;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 20px;
+            padding: 10px;
+            border: solid 5px lightblue;
+        }
+        #tabla{
+            grid-area: tabla;
+        }
+        #texto2{
+            grid-area: texto2;
+        }
+        #texto3{
+            grid-area: texto3;
+        }
+        nav{
+            grid-area: nav;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <h1>Loxodonta</h1>
+    <img id="imagen1" src="https://i.pinimg.com/originals/29/63/de/2963deb42bd95b8de335dd03d8d54f32.jpg" alt="Loxodonta">
+    <div id="texto1">
+        <p>El término "Loxodonta" se refiere al otro género de mamíferos proboscídeos de la familia de los elefántidos que incluye a las dos especies vivientes de elefantes africanos: el elefante africano de sabana (Loxodonta africana) y el elefante africano de bosque (Loxodonta cyclotis), que anteriormente eran considerados dos subespecies de una misma especie.</p>
+        <p>Actualmente se reconocen las siguientes especies de Loxodonta, tres de las cuales están extintas:</p>
+        <ul>
+            <li>Loxodonta africana;</li>
+            <li>Loxodonta cyclotis;</li>
+            <li>Loxodonta adaurora †;</li>
+            <li>Loxodonta atlantica †;</li>
+            <li>Loxodonta exoptata †.</li>
+        </ul>
+    </div>
+    
+    <h2>Especies extintas</h2>
+    <img id="imagen2" src="https://www.imagexia.com/img/Elefantes-Sabana-Africana.jpg" alt="Loxodonta africana">
+    <div id="texto2">
+        <p>A continuación se detallarán las especies extintas pertenecientes al género Loxodonta:</p>
+    </div>
+    <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Tipo</th>
+            <th scope="col">Información</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Loxodonta adaurora</th>
+            <td>Es una especie extinta de elefante de mismo género (Loxodonta) al que pertenecen los modernos elefantes africanos. Sus restos fósiles se han encontrados únicamente en África, donde habitaron en el Plioceno. Se piensa que es el antepasado genético común entre las dos especies de elefantes africanos existentes hoy en día; sin embargo, un análisis publicado en 2009 sugirió que la Loxodonta africana evolucionó a partir de la Loxodonta atlantica.</td>
+          </tr>
+          <tr>
+            <th scope="row">Loxodonta atlantica</th>
+            <td>Es una especie extinta de elefántido del género Loxodonta, conocido por fósiles descubiertos en ciertos estratos del Pleistoceno de África. Era de mayor tamaño que el actual elefante africano, y estaba dotado de una dentición de crecimiento más progresivo.​ Hasta hace poco se creía que la Loxodonta atlantica probablemente fuera una especie derivada de la Loxodonta adaurora, sin embargo, un análisis realizado en 2009 sugirió que la Loxodonta antlantica ha evolucionado en realidad a partir de la Loxodonta exoptata, y que es una especie antepasada de la Loxodonta africana.​ La especie ha sido subdividida en dos subespecies: L. atlantica atlantica (con restos fósiles encontrados en el norte de África) y L. atlantica zulu (restos encontrados en el sur de África).</td>
+          </tr>
+          <tr>
+            <th scope="row">Loxodonta exoptata</th>
+            <td>Es una especie extinta de mamíferos proboscídeos del género Loxodonta de la familia Elephantidae, que habitó en el este de África. La especie surgió hace 4,5 millones de años, evolucionando desde Primelephas gomphotheroides, y se extinguió hace 2 millones de años. Los restos fósiles de la Loxodonta exoptata se han encontrado en los sitios paleontológicos del Plioceno en el este de África, en particular en Laetoli y en Koobi Fora, en donde también se han encontrado múltiples restos fósiles humanos, entre los del primer Homo habilis.</td>
+          </tr>
+        </tbody>
+      </table>
+    <div id="texto3">
+        <ul>
+            <li>Para conocer más sobre la especie que abarca este género del Elephantidae (el elefante africano), visite <a href="index.html">este</a> link para volver a la página principal y leer información detallada sobre esta especie. Por otro lado, visite <a href="Elephas.html">este</a> link si desea conocer el otro género perteneciente a los Elephantidae: los Elephas.</li>
+        </ul>  
+    </div>
+     
+</body>
+</html>

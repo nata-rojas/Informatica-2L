@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elephas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        body{
+            width: 70%;
+            min-width: 400px;
+            margin-left:auto;
+            margin-right: auto;
+            display: block;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            gap: 10px;
+            grid-template-columns: 33% 67%;
+            grid-template-rows: auto;
+            grid-template-areas: 
+            "nav nav"
+            "imagen1 imagen1"            
+            "texto1 texto1"
+            "imagen2 imagen2"
+            "tabla1 tabla1" 
+            "texto2 texto2";
+        }
+        h2{
+            border-top: black solid 3px;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: cadetblue;
+        }
+        #imagen1{
+            grid-area: imagen1;
+            display: block;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 20px;
+            padding: 10px;
+            border: solid 5px lightblue;
+        }
+        #texto1{
+            grid-area: texto1;
+        }
+        #imagen2{
+            grid-area: imagen2;
+            display: block;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 20px;
+            padding: 10px;
+            border: solid 5px lightblue;
+        }
+        #tabla{
+            grid-area: tabla;
+        }
+        #texto2{
+            grid-area: texto2;
+        }
+        nav{
+            grid-area: nav;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <h1>Elephas</h1>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Elephas_maximus_%28Bandipur%29.jpg" alt="Elephas" id="imagen1">
+
+    <div id="texto1">
+        <p>El término "Elephas" se refiere a uno de los géneros de mamíferos proboscídeos de las dos clases supervivientes de la familia de los elefantes: Elephantidae. El género actualmente posee una sola especie superviviente, el elefante asiático (o Elephas maximus), pero se conocen unas diez especies extintas conocidas por su registro fósil:</p>
+        <ul>
+            <li>Elephas antiquus - elefante europeo;</li>
+            <li>Elephas beyeri;</li>
+            <li>Elephas celebensis - elefante enano de Célebes;</li>
+            <li>Elephas cypriotes - elefante enano de Chipre;</li>
+            <li>Elephas ekorensis;</li>
+            <li>Elephas falconeri - elefante enano de Sicilia;</li>
+            <li>Elephas iolensis;</li>
+            <li>Elephas namadicus;</li>
+            <li>Elephas planifrons;</li>
+            <li>Elephas platycephalus.</li>
+        </ul>
+        <p>Los registros encontrados indican que la más reciente de estas especies existió al rededor de 30.000 años atrás, y aunque las razones de la desaparición completa de estos animales es incierta, se cree que el motivo de su extinción fue su uso como elemento militar y la caza furtiva.</p>
+    </div>
+
+    <h2>Especificaciones</h2>
+    <img src="https://www.scenicoregon.com/webpics2/wp-content/uploads/2016/08/9396-asian-elephant-elephas-maximus-samudra-preview.jpg" alt="Elephas maximus" id="imagen2">
+    
+    <div>
+        <p>A continuación se propone una tabla con la taxonomía del género Elephas:</p> 
+    </div>
+    <table id="tabla" class="table">
+        <thead class="thead-dark">
+            <tr>
+              <th scope="col">Clasificación</th>
+              <th scope="col">Taxonomía</th>
+            </tr>
+          </thead>
+        <tr>
+            <th scope="row">Reino</th>
+            <td>Animalia: organismos que son eucariotas, heterótrofos, pluricelulares y tisulares.</td>
+          </tr>
+          <tr>
+            <th scope="row">Filo</th>
+            <td>Chordata: caracterizado por la presencia de una cuerda dorsal de células turgentes,​ tubo neural hueco en posición dorsal, hendiduras branquiales y cola, por lo menos en alguna fase del desarrollo embrionario.</td>
+          </tr>
+          <tr>
+            <th scope="row">Subfilo</th>
+            <td>Vertebrata: comprende a los animales con espina dorsal o columna vertebral.</td>
+          </tr> 
+          <tr>
+          <th scope="row">Clase</th>
+          <td>Mammalia: poseen glándulas mamarias productoras de leche con las que alimentan a las crías.</td>
+        </tr>
+          <tr>
+              <th scope="row">Infraclase</th>
+              <td>Placentalia: se caracterizan porque las crías son retenidas en el útero materno durante largo tiempo donde son alimentadas por una placenta alantoica.</td>
+          </tr>
+          <tr>
+              <th scope="row">Orden</th>
+              <td>Proboscídea.</td>
+          </tr>
+          <tr>
+              <th scope="row">Familia</th>
+              <td>Elephantidae.</td>
+          </tr>
+          <tr>
+              <th scope="row">Género</th>
+              <td>Elephas.</td>
+          </tr>
+    </table>
+    <div id="texto2">
+        <ul>
+            <li>Para conocer más sobre la especie que abarca este género del Elephantidae (el elefante asiático), visite <a href="index.html">este</a> link para volver a la página principal y leer información detallada sobre esta especie. Por otro lado, visite <a href="Loxodonta.html">este</a> link si desea conocer el segundo género perteneciente a los Elephantidae: las Loxodonta.</li>
+        </ul>
+    </div>
+</body>
+</html> 
