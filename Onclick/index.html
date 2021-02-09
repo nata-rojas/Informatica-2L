@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elefantes</title>
+    <style>
+        body{
+            width: 70%;
+            min-width: 400px;
+            margin-left:auto;
+            margin-right: auto;
+            display: block;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            gap: 10px;
+            grid-template-columns: 33% 67%;
+            grid-template-rows: auto;
+            grid-template-areas: 
+            "imagen imagen";
+        }
+        #imagen{
+            grid-area: imagen1;
+            display: block;
+            width: 25%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 20px;
+            padding: 10px;
+            border: solid 3px lightblue;
+        }
+        #bot1{
+            background-color: cornflowerblue;
+            color: white;
+            width: 10%;
+            padding: 5px;
+        }
+        #bot2{
+            background-color: cornflowerblue;
+            color: white;
+            width: 10%;
+            padding: 5px;
+        }
+        #bot3{
+            background-color: cornflowerblue;
+            color: white;
+            width: 10%;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Elefantes</h1>
+    <img src="https://data.whicdn.com/images/322821037/original.jpg" alt="elefantes" id="imagen">
+    <p id="p1">Los elefantes son animales mamíferos, exclusivamente herbívoros cuya característica principal –además del gran tamaño– es su larga trompa y sus enormes orejas. Se organizan en manadas de unos 20 miembros, miden casi 4 metros los ejemplares más grandes y pueden llegar a pesar más de 6.000 kilos. Suelen vivir alrededor de 70 años y tienen el periodo de gestación más largo de todos los animales: 22 meses. Nada más nacer, las crías ya pesan más de 100 kilos. </p>
+    <p id="p2">Debido a su gran tamaño, los elefantes tienen también un cerebro muy grande por lo cual son animales muy inteligentes a los que se asocian comportamientos como el duelo por una pérdida, la asociación con otros miembros, el uso de herramientas, la adopción, el juego e incluso el autorreconocimiento. </p>
+    <p id="p3">Las orejas de los elefantes actúan como termostato ayudando a soportar el fuerte calor de las zonas donde habitan, y su trompa en realidad no es más que una nariz muy desarrollada que también usan como un brazo largo. Los colmillos los usan para buscar comida y agua y son uno de los motivos por los que esta especie se encuentra amenazada, ya que el hombre los utiliza por el valor del marfil. </p>
+    <button id="bot1">Botón 1</button>
+    <button id="bot2">Botón 2</button>
+    <button id="bot3">Botón 3</button>
+    <script src="botones.js"></script>
+</body>
+</html>
