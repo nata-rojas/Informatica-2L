@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación tareas 2</title>
+    <style>
+        body{
+           background-color: #accbe4;
+           color: #accbe4;
+        }
+
+        form {
+            text-align: center;
+            color: black;
+            background-color: #accbe4;
+        }
+
+        table, td, th {
+            padding: 4px;
+            widows: 200px;
+            width: 70%;
+            min-width: 200px;
+            gap: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid #3d22a0;
+            border-collapse: collapse;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            color: #07263f;
+            background-color: #c1cce0;
+        }
+
+        th {
+            background-color: royalblue;
+            color: black;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        button{
+            background-color: rgb(253, 253, 253);
+            color: rgb(207, 53, 53);
+            width: 10%;
+            padding: 5px;
+            border: 2px solid rgb(207, 53, 53)
+        }
+
+    </style>
+</head>
+<body>
+    <form action="" id="formulario">
+        Materia
+        <input type="text" name="Materia">
+        Descripción
+        <input type="text" name="Descripción">
+        Fecha
+        <input type="date" name="Fecha">
+        <input type="submit">
+    </form>
+    <table id="tareas"></table>
+    <script src= "tabla.js"></script>
+</body>
+</html>
